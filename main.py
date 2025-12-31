@@ -13,7 +13,7 @@ def main() -> None:
 		imports.import_species()
 
 	terminal.run()
-	input("Press any key to close\n")
+	#input("Press any key to close\n")
 
 if __name__ == "__main__":
 	main()

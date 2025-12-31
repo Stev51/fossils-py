@@ -37,18 +37,18 @@ def func_quick_setup(args: list[str]) -> None:
 
 	func_new_team(["2"])
 
-	func_new(["1", "10", "GoodWater"])
+	func_new(["1", "5", "GoodWater"])
 	func_team_add(["0", "0"])
-	func_new(["4", "10", "GoodPlant"])
+	func_new(["4", "5", "GoodPlant"])
 	func_team_add(["0", "1"])
-	func_new(["7", "10", "GoodFire"])
+	func_new(["7", "5", "GoodFire"])
 	func_team_add(["0", "2"])
 
-	func_new(["7", "10", "BadFire"])
+	func_new(["7", "5", "BadFire"])
 	func_team_add(["1", "3"])
-	func_new(["4", "10", "BadPlant"])
+	func_new(["4", "5", "BadPlant"])
 	func_team_add(["1", "4"])
-	func_new(["1", "10", "BadWater"])
+	func_new(["1", "5", "BadWater"])
 	func_team_add(["1", "5"])
 
 	func_new_battle(["0", "1", "1"])

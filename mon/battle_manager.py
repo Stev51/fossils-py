@@ -312,13 +312,13 @@ class BattleManager:
 		print()
 
 		print("--- Enemy Monster ---")
-		print(f"{self.current_enemy_mon.name} ({self.current_enemy_mon.species})")
+		print(f"{self.current_enemy_mon.name} ({self.current_enemy_mon.species}) [Lvl. {self.current_enemy_mon.LVL}]")
 		print(f"HP: {self.current_enemy_mon.current_HP} / {self.current_enemy_mon.HP}")
 		print("---------------------")
 		print()
 
 		print("--- Your Monster ---")
-		print(f"{self.current_player_mon.name} ({self.current_player_mon.species})")
+		print(f"{self.current_player_mon.name} ({self.current_player_mon.species}) [Lvl. {self.current_player_mon.LVL}]")
 		print(f"HP: {self.current_player_mon.current_HP} / {self.current_player_mon.HP}")
 		print("--------------------")
 		print()
