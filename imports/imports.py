@@ -45,12 +45,12 @@ def import_types() -> None:
 				match val:
 					case "2x":
 						strong.append(types.Types.str_to_type(defender))
-					case "Â½x":
+					case "½x":
 						weak.append(types.Types.str_to_type(defender))
 					case "0x":
 						negate.append(types.Types.str_to_type(defender))
 					case _:
-						if val != "": print(val)
+						if val != "": print(f"Unknown Case: {val}")
 
 			types.STRONG[t] = strong
 			types.WEAK[t] = weak
